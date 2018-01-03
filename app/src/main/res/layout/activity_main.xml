@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.rgstattooparlour.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/punch_line"
+        android:textSize="38sp"
+        android:padding="8sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorReddish"
+        android:id="@+id/punchline"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_line"
+        android:id="@+id/inkedtag"
+        android:textSize="30sp"
+        android:padding="5sp"
+        android:layout_marginTop="225sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_line"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:padding="3sp"
+        android:fontFamily="casual"
+        android:background="@color/colorBlack"
+        android:id="@+id/contactline"
+        />
+
+
+</RelativeLayout>
